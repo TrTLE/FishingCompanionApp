@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "MaterialDetailViewController.updateDisplay(forCharacter:):MaterialDetailViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "ui_characterName.text">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>

@@ -1,0 +1,649 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		840880EA22A6765C000730CA /* MenuPondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840880E922A6765C000730CA /* MenuPondViewController.swift */; };
+		840880EC22A69E11000730CA /* NoviceMaterialTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840880EB22A69E11000730CA /* NoviceMaterialTableViewController.swift */; };
+		840880EE22A69F84000730CA /* NoviceMaterialTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840880ED22A69F84000730CA /* NoviceMaterialTableViewCell.swift */; };
+		840880F222A7AB38000730CA /* TvCharacter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840880F122A7AB38000730CA /* TvCharacter.swift */; };
+		840880F422A7AB43000730CA /* TvShow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840880F322A7AB43000730CA /* TvShow.swift */; };
+		840880F622A7EAE9000730CA /* TvShowList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840880F522A7EAE9000730CA /* TvShowList.swift */; };
+		841553CC22A50B0B00A9E6EE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841553CB22A50B0B00A9E6EE /* AppDelegate.swift */; };
+		841553CE22A50B0B00A9E6EE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841553CD22A50B0B00A9E6EE /* ViewController.swift */; };
+		841553D122A50B0B00A9E6EE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 841553CF22A50B0B00A9E6EE /* Main.storyboard */; };
+		841553D322A50B0D00A9E6EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 841553D222A50B0D00A9E6EE /* Assets.xcassets */; };
+		841553D622A50B0D00A9E6EE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 841553D422A50B0D00A9E6EE /* LaunchScreen.storyboard */; };
+		841553E122A50B0D00A9E6EE /* FishingCompanionAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841553E022A50B0D00A9E6EE /* FishingCompanionAppTests.swift */; };
+		841553EC22A50B0D00A9E6EE /* FishingCompanionAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841553EB22A50B0D00A9E6EE /* FishingCompanionAppUITests.swift */; };
+		841553FC22A50C9300A9E6EE /* MainTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841553FB22A50C9300A9E6EE /* MainTableViewCell.swift */; };
+		841553FE22A50F4800A9E6EE /* MainTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841553FD22A50F4800A9E6EE /* MainTableViewController.swift */; };
+		84399AE922A947F50010D765 /* MaterialDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84399AE822A947F50010D765 /* MaterialDetailViewController.swift */; };
+		84399AEC22A95C2C0010D765 /* ShowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84399AEB22A95C2C0010D765 /* ShowViewController.swift */; };
+		84DA5DD022A560CC0045BAEC /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DA5DCF22A560CC0045BAEC /* MainViewController.swift */; };
+		84DA5DD222A5661D0045BAEC /* PondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DA5DD122A5661D0045BAEC /* PondViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		841553DD22A50B0D00A9E6EE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 841553C022A50B0B00A9E6EE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 841553C722A50B0B00A9E6EE;
+			remoteInfo = FishingCompanionApp;
+		};
+		841553E822A50B0D00A9E6EE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 841553C022A50B0B00A9E6EE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 841553C722A50B0B00A9E6EE;
+			remoteInfo = FishingCompanionApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		840880E922A6765C000730CA /* MenuPondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuPondViewController.swift; sourceTree = "<group>"; };
+		840880EB22A69E11000730CA /* NoviceMaterialTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoviceMaterialTableViewController.swift; sourceTree = "<group>"; };
+		840880ED22A69F84000730CA /* NoviceMaterialTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoviceMaterialTableViewCell.swift; sourceTree = "<group>"; };
+		840880F122A7AB38000730CA /* TvCharacter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TvCharacter.swift; sourceTree = "<group>"; };
+		840880F322A7AB43000730CA /* TvShow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TvShow.swift; sourceTree = "<group>"; };
+		840880F522A7EAE9000730CA /* TvShowList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TvShowList.swift; sourceTree = "<group>"; };
+		841553C822A50B0B00A9E6EE /* FishingCompanionApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FishingCompanionApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		841553CB22A50B0B00A9E6EE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		841553CD22A50B0B00A9E6EE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		841553D022A50B0B00A9E6EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		841553D222A50B0D00A9E6EE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		841553D522A50B0D00A9E6EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		841553D722A50B0D00A9E6EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		841553DC22A50B0D00A9E6EE /* FishingCompanionAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FishingCompanionAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		841553E022A50B0D00A9E6EE /* FishingCompanionAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FishingCompanionAppTests.swift; sourceTree = "<group>"; };
+		841553E222A50B0D00A9E6EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		841553E722A50B0D00A9E6EE /* FishingCompanionAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FishingCompanionAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		841553EB22A50B0D00A9E6EE /* FishingCompanionAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FishingCompanionAppUITests.swift; sourceTree = "<group>"; };
+		841553ED22A50B0D00A9E6EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		841553FB22A50C9300A9E6EE /* MainTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTableViewCell.swift; sourceTree = "<group>"; };
+		841553FD22A50F4800A9E6EE /* MainTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTableViewController.swift; sourceTree = "<group>"; };
+		84399AE822A947F50010D765 /* MaterialDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaterialDetailViewController.swift; sourceTree = "<group>"; };
+		84399AEB22A95C2C0010D765 /* ShowViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowViewController.swift; sourceTree = "<group>"; };
+		84DA5DCF22A560CC0045BAEC /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		84DA5DD122A5661D0045BAEC /* PondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PondViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		841553C522A50B0B00A9E6EE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		841553D922A50B0D00A9E6EE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		841553E422A50B0D00A9E6EE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		840880EF22A7AB08000730CA /* core */ = {
+			isa = PBXGroup;
+			children = (
+				840880F022A7AB15000730CA /* show */,
+			);
+			path = core;
+			sourceTree = "<group>";
+		};
+		840880F022A7AB15000730CA /* show */ = {
+			isa = PBXGroup;
+			children = (
+				840880F122A7AB38000730CA /* TvCharacter.swift */,
+				840880F322A7AB43000730CA /* TvShow.swift */,
+				840880F522A7EAE9000730CA /* TvShowList.swift */,
+			);
+			path = show;
+			sourceTree = "<group>";
+		};
+		841553BF22A50B0B00A9E6EE = {
+			isa = PBXGroup;
+			children = (
+				841553CA22A50B0B00A9E6EE /* FishingCompanionApp */,
+				841553DF22A50B0D00A9E6EE /* FishingCompanionAppTests */,
+				841553EA22A50B0D00A9E6EE /* FishingCompanionAppUITests */,
+				841553C922A50B0B00A9E6EE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		841553C922A50B0B00A9E6EE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				841553C822A50B0B00A9E6EE /* FishingCompanionApp.app */,
+				841553DC22A50B0D00A9E6EE /* FishingCompanionAppTests.xctest */,
+				841553E722A50B0D00A9E6EE /* FishingCompanionAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		841553CA22A50B0B00A9E6EE /* FishingCompanionApp */ = {
+			isa = PBXGroup;
+			children = (
+				840880EF22A7AB08000730CA /* core */,
+				841553CB22A50B0B00A9E6EE /* AppDelegate.swift */,
+				841553CD22A50B0B00A9E6EE /* ViewController.swift */,
+				841553CF22A50B0B00A9E6EE /* Main.storyboard */,
+				841553D222A50B0D00A9E6EE /* Assets.xcassets */,
+				841553D422A50B0D00A9E6EE /* LaunchScreen.storyboard */,
+				841553D722A50B0D00A9E6EE /* Info.plist */,
+				841553FB22A50C9300A9E6EE /* MainTableViewCell.swift */,
+				841553FD22A50F4800A9E6EE /* MainTableViewController.swift */,
+				84DA5DCF22A560CC0045BAEC /* MainViewController.swift */,
+				84DA5DD122A5661D0045BAEC /* PondViewController.swift */,
+				840880E922A6765C000730CA /* MenuPondViewController.swift */,
+				840880EB22A69E11000730CA /* NoviceMaterialTableViewController.swift */,
+				840880ED22A69F84000730CA /* NoviceMaterialTableViewCell.swift */,
+				84399AE822A947F50010D765 /* MaterialDetailViewController.swift */,
+				84399AEB22A95C2C0010D765 /* ShowViewController.swift */,
+			);
+			path = FishingCompanionApp;
+			sourceTree = "<group>";
+		};
+		841553DF22A50B0D00A9E6EE /* FishingCompanionAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				841553E022A50B0D00A9E6EE /* FishingCompanionAppTests.swift */,
+				841553E222A50B0D00A9E6EE /* Info.plist */,
+			);
+			path = FishingCompanionAppTests;
+			sourceTree = "<group>";
+		};
+		841553EA22A50B0D00A9E6EE /* FishingCompanionAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				841553EB22A50B0D00A9E6EE /* FishingCompanionAppUITests.swift */,
+				841553ED22A50B0D00A9E6EE /* Info.plist */,
+			);
+			path = FishingCompanionAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		841553C722A50B0B00A9E6EE /* FishingCompanionApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 841553F022A50B0D00A9E6EE /* Build configuration list for PBXNativeTarget "FishingCompanionApp" */;
+			buildPhases = (
+				841553C422A50B0B00A9E6EE /* Sources */,
+				841553C522A50B0B00A9E6EE /* Frameworks */,
+				841553C622A50B0B00A9E6EE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FishingCompanionApp;
+			productName = FishingCompanionApp;
+			productReference = 841553C822A50B0B00A9E6EE /* FishingCompanionApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		841553DB22A50B0D00A9E6EE /* FishingCompanionAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 841553F322A50B0D00A9E6EE /* Build configuration list for PBXNativeTarget "FishingCompanionAppTests" */;
+			buildPhases = (
+				841553D822A50B0D00A9E6EE /* Sources */,
+				841553D922A50B0D00A9E6EE /* Frameworks */,
+				841553DA22A50B0D00A9E6EE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				841553DE22A50B0D00A9E6EE /* PBXTargetDependency */,
+			);
+			name = FishingCompanionAppTests;
+			productName = FishingCompanionAppTests;
+			productReference = 841553DC22A50B0D00A9E6EE /* FishingCompanionAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		841553E622A50B0D00A9E6EE /* FishingCompanionAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 841553F622A50B0D00A9E6EE /* Build configuration list for PBXNativeTarget "FishingCompanionAppUITests" */;
+			buildPhases = (
+				841553E322A50B0D00A9E6EE /* Sources */,
+				841553E422A50B0D00A9E6EE /* Frameworks */,
+				841553E522A50B0D00A9E6EE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				841553E922A50B0D00A9E6EE /* PBXTargetDependency */,
+			);
+			name = FishingCompanionAppUITests;
+			productName = FishingCompanionAppUITests;
+			productReference = 841553E722A50B0D00A9E6EE /* FishingCompanionAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		841553C022A50B0B00A9E6EE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Alexis PAQUIN";
+				TargetAttributes = {
+					841553C722A50B0B00A9E6EE = {
+						CreatedOnToolsVersion = 10.2;
+					};
+					841553DB22A50B0D00A9E6EE = {
+						CreatedOnToolsVersion = 10.2;
+						TestTargetID = 841553C722A50B0B00A9E6EE;
+					};
+					841553E622A50B0D00A9E6EE = {
+						CreatedOnToolsVersion = 10.2;
+						TestTargetID = 841553C722A50B0B00A9E6EE;
+					};
+				};
+			};
+			buildConfigurationList = 841553C322A50B0B00A9E6EE /* Build configuration list for PBXProject "FishingCompanionApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 841553BF22A50B0B00A9E6EE;
+			productRefGroup = 841553C922A50B0B00A9E6EE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				841553C722A50B0B00A9E6EE /* FishingCompanionApp */,
+				841553DB22A50B0D00A9E6EE /* FishingCompanionAppTests */,
+				841553E622A50B0D00A9E6EE /* FishingCompanionAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		841553C622A50B0B00A9E6EE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				841553D622A50B0D00A9E6EE /* LaunchScreen.storyboard in Resources */,
+				841553D322A50B0D00A9E6EE /* Assets.xcassets in Resources */,
+				841553D122A50B0B00A9E6EE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		841553DA22A50B0D00A9E6EE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		841553E522A50B0D00A9E6EE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		841553C422A50B0B00A9E6EE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				840880F622A7EAE9000730CA /* TvShowList.swift in Sources */,
+				84399AEC22A95C2C0010D765 /* ShowViewController.swift in Sources */,
+				841553FE22A50F4800A9E6EE /* MainTableViewController.swift in Sources */,
+				84DA5DD222A5661D0045BAEC /* PondViewController.swift in Sources */,
+				840880EA22A6765C000730CA /* MenuPondViewController.swift in Sources */,
+				84399AE922A947F50010D765 /* MaterialDetailViewController.swift in Sources */,
+				841553CE22A50B0B00A9E6EE /* ViewController.swift in Sources */,
+				840880EC22A69E11000730CA /* NoviceMaterialTableViewController.swift in Sources */,
+				840880F222A7AB38000730CA /* TvCharacter.swift in Sources */,
+				841553FC22A50C9300A9E6EE /* MainTableViewCell.swift in Sources */,
+				841553CC22A50B0B00A9E6EE /* AppDelegate.swift in Sources */,
+				84DA5DD022A560CC0045BAEC /* MainViewController.swift in Sources */,
+				840880F422A7AB43000730CA /* TvShow.swift in Sources */,
+				840880EE22A69F84000730CA /* NoviceMaterialTableViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		841553D822A50B0D00A9E6EE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				841553E122A50B0D00A9E6EE /* FishingCompanionAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		841553E322A50B0D00A9E6EE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				841553EC22A50B0D00A9E6EE /* FishingCompanionAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		841553DE22A50B0D00A9E6EE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 841553C722A50B0B00A9E6EE /* FishingCompanionApp */;
+			targetProxy = 841553DD22A50B0D00A9E6EE /* PBXContainerItemProxy */;
+		};
+		841553E922A50B0D00A9E6EE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 841553C722A50B0B00A9E6EE /* FishingCompanionApp */;
+			targetProxy = 841553E822A50B0D00A9E6EE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		841553CF22A50B0B00A9E6EE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				841553D022A50B0B00A9E6EE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		841553D422A50B0D00A9E6EE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				841553D522A50B0D00A9E6EE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		841553EE22A50B0D00A9E6EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		841553EF22A50B0D00A9E6EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		841553F122A50B0D00A9E6EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FishingCompanionApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = fr.FishingCompanion.app.FishingCompanionApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		841553F222A50B0D00A9E6EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FishingCompanionApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = fr.FishingCompanion.app.FishingCompanionApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		841553F422A50B0D00A9E6EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FishingCompanionAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = fr.FishingCompanion.app.FishingCompanionAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FishingCompanionApp.app/FishingCompanionApp";
+			};
+			name = Debug;
+		};
+		841553F522A50B0D00A9E6EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FishingCompanionAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = fr.FishingCompanion.app.FishingCompanionAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FishingCompanionApp.app/FishingCompanionApp";
+			};
+			name = Release;
+		};
+		841553F722A50B0D00A9E6EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FishingCompanionAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = fr.FishingCompanion.app.FishingCompanionAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FishingCompanionApp;
+			};
+			name = Debug;
+		};
+		841553F822A50B0D00A9E6EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FishingCompanionAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = fr.FishingCompanion.app.FishingCompanionAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FishingCompanionApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		841553C322A50B0B00A9E6EE /* Build configuration list for PBXProject "FishingCompanionApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				841553EE22A50B0D00A9E6EE /* Debug */,
+				841553EF22A50B0D00A9E6EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		841553F022A50B0D00A9E6EE /* Build configuration list for PBXNativeTarget "FishingCompanionApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				841553F122A50B0D00A9E6EE /* Debug */,
+				841553F222A50B0D00A9E6EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		841553F322A50B0D00A9E6EE /* Build configuration list for PBXNativeTarget "FishingCompanionAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				841553F422A50B0D00A9E6EE /* Debug */,
+				841553F522A50B0D00A9E6EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		841553F622A50B0D00A9E6EE /* Build configuration list for PBXNativeTarget "FishingCompanionAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				841553F722A50B0D00A9E6EE /* Debug */,
+				841553F822A50B0D00A9E6EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 841553C022A50B0B00A9E6EE /* Project object */;
+}
