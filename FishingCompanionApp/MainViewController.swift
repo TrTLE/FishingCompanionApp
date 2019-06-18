@@ -18,7 +18,7 @@ class MainViewController: UIViewController {
     
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(false)
-        navigationController?.setNavigationBarHidden(true, animated: false)
+        //navigationController?.setNavigationBarHidden(true, animated: false)
 
         
     }
@@ -34,9 +34,25 @@ class MainViewController: UIViewController {
     */
     
     
-    override func unwind(for unwindSegue: UIStoryboardSegue, towards subsequentVC: UIViewController) {
+    @IBAction func unwindToHome(for unwindSegue: UIStoryboardSegue) {
+        if let sourceViewController = unwindSegue.source as? ShowViewController,
+            let identifier = unwindSegue.identifier,
+            let unwindType = ShowViewController.UnwindType(rawValue: identifier)
+        {
+            
+            switch unwindType {
+            case .cancel:
+                print("cancel")
+            case .save:
+                print("save")
+            case .push:
+                break
+            }
+        }
+    }
+    
+    @IBAction func onSeaFinsgingTouched(_ sender: Any) {
         
     }
     
-
 }

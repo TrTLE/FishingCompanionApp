@@ -1,21 +1,15 @@
 //
-//  ShowViewController.swift
+//  NoviceRiverViewController.swift
 //  FishingCompanionApp
 //
-//  Created by Admin on 06/06/2019.
+//  Created by Admin on 18/06/2019.
 //  Copyright © 2019 Alexis PAQUIN. All rights reserved.
 //
 
 import UIKit
 
-class ShowViewController: UIViewController {
+class NoviceRiverViewController: UIViewController {
 
-    enum UnwindType : String {
-        case cancel
-        case save
-        case push
-    }
-    
     override func viewDidLoad() {
         super.viewDidLoad()
 

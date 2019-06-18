@@ -24,8 +24,18 @@
 		841553FE22A50F4800A9E6EE /* MainTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841553FD22A50F4800A9E6EE /* MainTableViewController.swift */; };
 		84399AE922A947F50010D765 /* MaterialDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84399AE822A947F50010D765 /* MaterialDetailViewController.swift */; };
 		84399AEC22A95C2C0010D765 /* ShowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84399AEB22A95C2C0010D765 /* ShowViewController.swift */; };
+		8470AB8922AAA74500D27211 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8470AB8822AAA74500D27211 /* HomeViewController.swift */; };
+		8470AB8B22AAAE4B00D27211 /* PerfectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8470AB8A22AAAE4B00D27211 /* PerfectionViewController.swift */; };
 		84DA5DD022A560CC0045BAEC /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DA5DCF22A560CC0045BAEC /* MainViewController.swift */; };
-		84DA5DD222A5661D0045BAEC /* PondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DA5DD122A5661D0045BAEC /* PondViewController.swift */; };
+		84E267AE22B927650063894C /* NoviceSeaFishingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E267AD22B927650063894C /* NoviceSeaFishingViewController.swift */; };
+		84E3C52822B928CC00A0B068 /* ExpertSeaFishingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E3C52722B928CC00A0B068 /* ExpertSeaFishingViewController.swift */; };
+		84E3C52B22B92C2700A0B068 /* NoviceSurfCastingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E3C52A22B92C2700A0B068 /* NoviceSurfCastingViewController.swift */; };
+		84E3C52D22B92C4200A0B068 /* ExpertSurfCastingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E3C52C22B92C4200A0B068 /* ExpertSurfCastingViewController.swift */; };
+		84E3C53022B92D2000A0B068 /* NoviceRiverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E3C52F22B92D2000A0B068 /* NoviceRiverViewController.swift */; };
+		84E3C53222B92D3100A0B068 /* ExpertRiverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E3C53122B92D3100A0B068 /* ExpertRiverViewController.swift */; };
+		84E3C53522B92D8C00A0B068 /* NovicePondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E3C53422B92D8C00A0B068 /* NovicePondViewController.swift */; };
+		84E3C53722B92DA000A0B068 /* ExpertPondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E3C53622B92DA000A0B068 /* ExpertPondViewController.swift */; };
+		84E3C53B22B9315A00A0B068 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E3C53A22B9315A00A0B068 /* LocationManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,8 +79,18 @@
 		841553FD22A50F4800A9E6EE /* MainTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTableViewController.swift; sourceTree = "<group>"; };
 		84399AE822A947F50010D765 /* MaterialDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaterialDetailViewController.swift; sourceTree = "<group>"; };
 		84399AEB22A95C2C0010D765 /* ShowViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowViewController.swift; sourceTree = "<group>"; };
+		8470AB8822AAA74500D27211 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		8470AB8A22AAAE4B00D27211 /* PerfectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PerfectionViewController.swift; sourceTree = "<group>"; };
 		84DA5DCF22A560CC0045BAEC /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
-		84DA5DD122A5661D0045BAEC /* PondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PondViewController.swift; sourceTree = "<group>"; };
+		84E267AD22B927650063894C /* NoviceSeaFishingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoviceSeaFishingViewController.swift; sourceTree = "<group>"; };
+		84E3C52722B928CC00A0B068 /* ExpertSeaFishingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpertSeaFishingViewController.swift; sourceTree = "<group>"; };
+		84E3C52A22B92C2700A0B068 /* NoviceSurfCastingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoviceSurfCastingViewController.swift; sourceTree = "<group>"; };
+		84E3C52C22B92C4200A0B068 /* ExpertSurfCastingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpertSurfCastingViewController.swift; sourceTree = "<group>"; };
+		84E3C52F22B92D2000A0B068 /* NoviceRiverViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoviceRiverViewController.swift; sourceTree = "<group>"; };
+		84E3C53122B92D3100A0B068 /* ExpertRiverViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpertRiverViewController.swift; sourceTree = "<group>"; };
+		84E3C53422B92D8C00A0B068 /* NovicePondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NovicePondViewController.swift; sourceTree = "<group>"; };
+		84E3C53622B92DA000A0B068 /* ExpertPondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpertPondViewController.swift; sourceTree = "<group>"; };
+		84E3C53A22B9315A00A0B068 /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +121,7 @@
 		840880EF22A7AB08000730CA /* core */ = {
 			isa = PBXGroup;
 			children = (
+				84E3C53922B930F900A0B068 /* location */,
 				840880F022A7AB15000730CA /* show */,
 			);
 			path = core;
@@ -139,6 +160,10 @@
 		841553CA22A50B0B00A9E6EE /* FishingCompanionApp */ = {
 			isa = PBXGroup;
 			children = (
+				84E3C53322B92D7900A0B068 /* pond */,
+				84E3C52E22B92D0700A0B068 /* river */,
+				84E3C52922B92BF200A0B068 /* surfcasting */,
+				84E267AC22B927380063894C /* seafishing */,
 				840880EF22A7AB08000730CA /* core */,
 				841553CB22A50B0B00A9E6EE /* AppDelegate.swift */,
 				841553CD22A50B0B00A9E6EE /* ViewController.swift */,
@@ -149,12 +174,13 @@
 				841553FB22A50C9300A9E6EE /* MainTableViewCell.swift */,
 				841553FD22A50F4800A9E6EE /* MainTableViewController.swift */,
 				84DA5DCF22A560CC0045BAEC /* MainViewController.swift */,
-				84DA5DD122A5661D0045BAEC /* PondViewController.swift */,
 				840880E922A6765C000730CA /* MenuPondViewController.swift */,
 				840880EB22A69E11000730CA /* NoviceMaterialTableViewController.swift */,
 				840880ED22A69F84000730CA /* NoviceMaterialTableViewCell.swift */,
 				84399AE822A947F50010D765 /* MaterialDetailViewController.swift */,
 				84399AEB22A95C2C0010D765 /* ShowViewController.swift */,
+				8470AB8822AAA74500D27211 /* HomeViewController.swift */,
+				8470AB8A22AAAE4B00D27211 /* PerfectionViewController.swift */,
 			);
 			path = FishingCompanionApp;
 			sourceTree = "<group>";
@@ -175,6 +201,50 @@
 				841553ED22A50B0D00A9E6EE /* Info.plist */,
 			);
 			path = FishingCompanionAppUITests;
+			sourceTree = "<group>";
+		};
+		84E267AC22B927380063894C /* seafishing */ = {
+			isa = PBXGroup;
+			children = (
+				84E267AD22B927650063894C /* NoviceSeaFishingViewController.swift */,
+				84E3C52722B928CC00A0B068 /* ExpertSeaFishingViewController.swift */,
+			);
+			path = seafishing;
+			sourceTree = "<group>";
+		};
+		84E3C52922B92BF200A0B068 /* surfcasting */ = {
+			isa = PBXGroup;
+			children = (
+				84E3C52A22B92C2700A0B068 /* NoviceSurfCastingViewController.swift */,
+				84E3C52C22B92C4200A0B068 /* ExpertSurfCastingViewController.swift */,
+			);
+			path = surfcasting;
+			sourceTree = "<group>";
+		};
+		84E3C52E22B92D0700A0B068 /* river */ = {
+			isa = PBXGroup;
+			children = (
+				84E3C52F22B92D2000A0B068 /* NoviceRiverViewController.swift */,
+				84E3C53122B92D3100A0B068 /* ExpertRiverViewController.swift */,
+			);
+			path = river;
+			sourceTree = "<group>";
+		};
+		84E3C53322B92D7900A0B068 /* pond */ = {
+			isa = PBXGroup;
+			children = (
+				84E3C53422B92D8C00A0B068 /* NovicePondViewController.swift */,
+				84E3C53622B92DA000A0B068 /* ExpertPondViewController.swift */,
+			);
+			path = pond;
+			sourceTree = "<group>";
+		};
+		84E3C53922B930F900A0B068 /* location */ = {
+			isa = PBXGroup;
+			children = (
+				84E3C53A22B9315A00A0B068 /* LocationManager.swift */,
+			);
+			path = location;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -308,19 +378,29 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84E3C52B22B92C2700A0B068 /* NoviceSurfCastingViewController.swift in Sources */,
+				84E3C53722B92DA000A0B068 /* ExpertPondViewController.swift in Sources */,
 				840880F622A7EAE9000730CA /* TvShowList.swift in Sources */,
 				84399AEC22A95C2C0010D765 /* ShowViewController.swift in Sources */,
 				841553FE22A50F4800A9E6EE /* MainTableViewController.swift in Sources */,
-				84DA5DD222A5661D0045BAEC /* PondViewController.swift in Sources */,
+				84E267AE22B927650063894C /* NoviceSeaFishingViewController.swift in Sources */,
 				840880EA22A6765C000730CA /* MenuPondViewController.swift in Sources */,
+				84E3C52D22B92C4200A0B068 /* ExpertSurfCastingViewController.swift in Sources */,
+				8470AB8922AAA74500D27211 /* HomeViewController.swift in Sources */,
 				84399AE922A947F50010D765 /* MaterialDetailViewController.swift in Sources */,
+				84E3C53222B92D3100A0B068 /* ExpertRiverViewController.swift in Sources */,
+				84E3C53022B92D2000A0B068 /* NoviceRiverViewController.swift in Sources */,
 				841553CE22A50B0B00A9E6EE /* ViewController.swift in Sources */,
 				840880EC22A69E11000730CA /* NoviceMaterialTableViewController.swift in Sources */,
 				840880F222A7AB38000730CA /* TvCharacter.swift in Sources */,
+				8470AB8B22AAAE4B00D27211 /* PerfectionViewController.swift in Sources */,
 				841553FC22A50C9300A9E6EE /* MainTableViewCell.swift in Sources */,
 				841553CC22A50B0B00A9E6EE /* AppDelegate.swift in Sources */,
 				84DA5DD022A560CC0045BAEC /* MainViewController.swift in Sources */,
 				840880F422A7AB43000730CA /* TvShow.swift in Sources */,
+				84E3C53B22B9315A00A0B068 /* LocationManager.swift in Sources */,
+				84E3C53522B92D8C00A0B068 /* NovicePondViewController.swift in Sources */,
+				84E3C52822B928CC00A0B068 /* ExpertSeaFishingViewController.swift in Sources */,
 				840880EE22A69F84000730CA /* NoviceMaterialTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
