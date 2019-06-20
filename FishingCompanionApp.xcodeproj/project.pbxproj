@@ -3,10 +3,11 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		02119C353F1A3D0B01C8F82C /* Pods_FishingCompanionAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 317B9A32FD9F274C1BDC7006 /* Pods_FishingCompanionAppUITests.framework */; };
 		840880EA22A6765C000730CA /* MenuPondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840880E922A6765C000730CA /* MenuPondViewController.swift */; };
 		840880EC22A69E11000730CA /* NoviceMaterialTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840880EB22A69E11000730CA /* NoviceMaterialTableViewController.swift */; };
 		840880EE22A69F84000730CA /* NoviceMaterialTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840880ED22A69F84000730CA /* NoviceMaterialTableViewCell.swift */; };
@@ -36,6 +37,11 @@
 		84E3C53522B92D8C00A0B068 /* NovicePondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E3C53422B92D8C00A0B068 /* NovicePondViewController.swift */; };
 		84E3C53722B92DA000A0B068 /* ExpertPondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E3C53622B92DA000A0B068 /* ExpertPondViewController.swift */; };
 		84E3C53B22B9315A00A0B068 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E3C53A22B9315A00A0B068 /* LocationManager.swift */; };
+		84E3C53D22BA17E900A0B068 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E3C53C22BA17E900A0B068 /* MapViewController.swift */; };
+		84E3C54022BA185500A0B068 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84E3C53F22BA185500A0B068 /* MapKit.framework */; };
+		84E3C54422BA55FD00A0B068 /* DataBaseProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E3C54322BA55FD00A0B068 /* DataBaseProvider.swift */; };
+		BACAB5224C9DA1EA67811A96 /* Pods_FishingCompanionAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45DFBEE505BFB975DF77200A /* Pods_FishingCompanionAppTests.framework */; };
+		F987D215073A5016F48DE776 /* Pods_FishingCompanionApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A96163DE7EF707542368299B /* Pods_FishingCompanionApp.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +62,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		24BD746527560962D2160EB6 /* Pods-FishingCompanionAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FishingCompanionAppUITests.release.xcconfig"; path = "Target Support Files/Pods-FishingCompanionAppUITests/Pods-FishingCompanionAppUITests.release.xcconfig"; sourceTree = "<group>"; };
+		317B9A32FD9F274C1BDC7006 /* Pods_FishingCompanionAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FishingCompanionAppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		453913D19A2F370E330D8433 /* Pods-FishingCompanionAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FishingCompanionAppTests.debug.xcconfig"; path = "Target Support Files/Pods-FishingCompanionAppTests/Pods-FishingCompanionAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		45DFBEE505BFB975DF77200A /* Pods_FishingCompanionAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FishingCompanionAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6815BA9805B5676EFEEFC274 /* Pods-FishingCompanionApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FishingCompanionApp.release.xcconfig"; path = "Target Support Files/Pods-FishingCompanionApp/Pods-FishingCompanionApp.release.xcconfig"; sourceTree = "<group>"; };
+		76463A1DC5FA2BFF24F23203 /* Pods-FishingCompanionApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FishingCompanionApp.debug.xcconfig"; path = "Target Support Files/Pods-FishingCompanionApp/Pods-FishingCompanionApp.debug.xcconfig"; sourceTree = "<group>"; };
 		840880E922A6765C000730CA /* MenuPondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuPondViewController.swift; sourceTree = "<group>"; };
 		840880EB22A69E11000730CA /* NoviceMaterialTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoviceMaterialTableViewController.swift; sourceTree = "<group>"; };
 		840880ED22A69F84000730CA /* NoviceMaterialTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoviceMaterialTableViewCell.swift; sourceTree = "<group>"; };
@@ -91,6 +103,12 @@
 		84E3C53422B92D8C00A0B068 /* NovicePondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NovicePondViewController.swift; sourceTree = "<group>"; };
 		84E3C53622B92DA000A0B068 /* ExpertPondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpertPondViewController.swift; sourceTree = "<group>"; };
 		84E3C53A22B9315A00A0B068 /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		84E3C53C22BA17E900A0B068 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		84E3C53F22BA185500A0B068 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		84E3C54322BA55FD00A0B068 /* DataBaseProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataBaseProvider.swift; sourceTree = "<group>"; };
+		A330B32485DA5CAAE9A5FFD5 /* Pods-FishingCompanionAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FishingCompanionAppTests.release.xcconfig"; path = "Target Support Files/Pods-FishingCompanionAppTests/Pods-FishingCompanionAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		A4C11578FAB21867B22A6F72 /* Pods-FishingCompanionAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FishingCompanionAppUITests.debug.xcconfig"; path = "Target Support Files/Pods-FishingCompanionAppUITests/Pods-FishingCompanionAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		A96163DE7EF707542368299B /* Pods_FishingCompanionApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FishingCompanionApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +116,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84E3C54022BA185500A0B068 /* MapKit.framework in Frameworks */,
+				F987D215073A5016F48DE776 /* Pods_FishingCompanionApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -105,6 +125,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BACAB5224C9DA1EA67811A96 /* Pods_FishingCompanionAppTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -112,15 +133,30 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				02119C353F1A3D0B01C8F82C /* Pods_FishingCompanionAppUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		10C8F02029172FC592668A76 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				76463A1DC5FA2BFF24F23203 /* Pods-FishingCompanionApp.debug.xcconfig */,
+				6815BA9805B5676EFEEFC274 /* Pods-FishingCompanionApp.release.xcconfig */,
+				453913D19A2F370E330D8433 /* Pods-FishingCompanionAppTests.debug.xcconfig */,
+				A330B32485DA5CAAE9A5FFD5 /* Pods-FishingCompanionAppTests.release.xcconfig */,
+				A4C11578FAB21867B22A6F72 /* Pods-FishingCompanionAppUITests.debug.xcconfig */,
+				24BD746527560962D2160EB6 /* Pods-FishingCompanionAppUITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		840880EF22A7AB08000730CA /* core */ = {
 			isa = PBXGroup;
 			children = (
+				84E3C54222BA55A800A0B068 /* modele */,
 				84E3C53922B930F900A0B068 /* location */,
 				840880F022A7AB15000730CA /* show */,
 			);
@@ -144,6 +180,8 @@
 				841553DF22A50B0D00A9E6EE /* FishingCompanionAppTests */,
 				841553EA22A50B0D00A9E6EE /* FishingCompanionAppUITests */,
 				841553C922A50B0B00A9E6EE /* Products */,
+				84E3C53E22BA185500A0B068 /* Frameworks */,
+				10C8F02029172FC592668A76 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -181,6 +219,7 @@
 				84399AEB22A95C2C0010D765 /* ShowViewController.swift */,
 				8470AB8822AAA74500D27211 /* HomeViewController.swift */,
 				8470AB8A22AAAE4B00D27211 /* PerfectionViewController.swift */,
+				84E3C53C22BA17E900A0B068 /* MapViewController.swift */,
 			);
 			path = FishingCompanionApp;
 			sourceTree = "<group>";
@@ -247,6 +286,33 @@
 			path = location;
 			sourceTree = "<group>";
 		};
+		84E3C53E22BA185500A0B068 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				84E3C53F22BA185500A0B068 /* MapKit.framework */,
+				A96163DE7EF707542368299B /* Pods_FishingCompanionApp.framework */,
+				45DFBEE505BFB975DF77200A /* Pods_FishingCompanionAppTests.framework */,
+				317B9A32FD9F274C1BDC7006 /* Pods_FishingCompanionAppUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		84E3C54122BA555400A0B068 /* database */ = {
+			isa = PBXGroup;
+			children = (
+				84E3C54322BA55FD00A0B068 /* DataBaseProvider.swift */,
+			);
+			path = database;
+			sourceTree = "<group>";
+		};
+		84E3C54222BA55A800A0B068 /* modele */ = {
+			isa = PBXGroup;
+			children = (
+				84E3C54122BA555400A0B068 /* database */,
+			);
+			path = modele;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -254,9 +320,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 841553F022A50B0D00A9E6EE /* Build configuration list for PBXNativeTarget "FishingCompanionApp" */;
 			buildPhases = (
+				F2E981C1FC0E85D2153A8157 /* [CP] Check Pods Manifest.lock */,
 				841553C422A50B0B00A9E6EE /* Sources */,
 				841553C522A50B0B00A9E6EE /* Frameworks */,
 				841553C622A50B0B00A9E6EE /* Resources */,
+				BFE7243C3A2251299938DF75 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -271,6 +339,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 841553F322A50B0D00A9E6EE /* Build configuration list for PBXNativeTarget "FishingCompanionAppTests" */;
 			buildPhases = (
+				B8FA4D1039C6D9AAC55E345E /* [CP] Check Pods Manifest.lock */,
 				841553D822A50B0D00A9E6EE /* Sources */,
 				841553D922A50B0D00A9E6EE /* Frameworks */,
 				841553DA22A50B0D00A9E6EE /* Resources */,
@@ -289,6 +358,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 841553F622A50B0D00A9E6EE /* Build configuration list for PBXNativeTarget "FishingCompanionAppUITests" */;
 			buildPhases = (
+				FE658E90A4AE017E76D0D8F2 /* [CP] Check Pods Manifest.lock */,
 				841553E322A50B0D00A9E6EE /* Sources */,
 				841553E422A50B0D00A9E6EE /* Frameworks */,
 				841553E522A50B0D00A9E6EE /* Resources */,
@@ -315,6 +385,11 @@
 				TargetAttributes = {
 					841553C722A50B0B00A9E6EE = {
 						CreatedOnToolsVersion = 10.2;
+						SystemCapabilities = {
+							com.apple.Maps.iOS = {
+								enabled = 1;
+							};
+						};
 					};
 					841553DB22A50B0D00A9E6EE = {
 						CreatedOnToolsVersion = 10.2;
@@ -373,6 +448,92 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		B8FA4D1039C6D9AAC55E345E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FishingCompanionAppTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BFE7243C3A2251299938DF75 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FishingCompanionApp/Pods-FishingCompanionApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FishingCompanionApp/Pods-FishingCompanionApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FishingCompanionApp/Pods-FishingCompanionApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F2E981C1FC0E85D2153A8157 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FishingCompanionApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FE658E90A4AE017E76D0D8F2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FishingCompanionAppUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		841553C422A50B0B00A9E6EE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -383,9 +544,11 @@
 				840880F622A7EAE9000730CA /* TvShowList.swift in Sources */,
 				84399AEC22A95C2C0010D765 /* ShowViewController.swift in Sources */,
 				841553FE22A50F4800A9E6EE /* MainTableViewController.swift in Sources */,
+				84E3C54422BA55FD00A0B068 /* DataBaseProvider.swift in Sources */,
 				84E267AE22B927650063894C /* NoviceSeaFishingViewController.swift in Sources */,
 				840880EA22A6765C000730CA /* MenuPondViewController.swift in Sources */,
 				84E3C52D22B92C4200A0B068 /* ExpertSurfCastingViewController.swift in Sources */,
+				84E3C53D22BA17E900A0B068 /* MapViewController.swift in Sources */,
 				8470AB8922AAA74500D27211 /* HomeViewController.swift in Sources */,
 				84399AE922A947F50010D765 /* MaterialDetailViewController.swift in Sources */,
 				84E3C53222B92D3100A0B068 /* ExpertRiverViewController.swift in Sources */,
@@ -574,6 +737,7 @@
 		};
 		841553F122A50B0D00A9E6EE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 76463A1DC5FA2BFF24F23203 /* Pods-FishingCompanionApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -591,6 +755,7 @@
 		};
 		841553F222A50B0D00A9E6EE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6815BA9805B5676EFEEFC274 /* Pods-FishingCompanionApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -608,6 +773,7 @@
 		};
 		841553F422A50B0D00A9E6EE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 453913D19A2F370E330D8433 /* Pods-FishingCompanionAppTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -628,6 +794,7 @@
 		};
 		841553F522A50B0D00A9E6EE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A330B32485DA5CAAE9A5FFD5 /* Pods-FishingCompanionAppTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -648,6 +815,7 @@
 		};
 		841553F722A50B0D00A9E6EE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A4C11578FAB21867B22A6F72 /* Pods-FishingCompanionAppUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -667,6 +835,7 @@
 		};
 		841553F822A50B0D00A9E6EE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24BD746527560962D2160EB6 /* Pods-FishingCompanionAppUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

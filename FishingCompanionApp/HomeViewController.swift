@@ -10,6 +10,8 @@ import UIKit
 
 class HomeViewController: UIViewController {
 
+    private let dataBase = DataBaseProvider()
+    
     enum Level: String{
         case novice
         case perfection

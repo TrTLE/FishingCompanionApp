@@ -8,14 +8,26 @@
 
 import UIKit
 
-class NovicePondViewController: UIViewController {
+class NovicePondViewController: UIViewController, UICollectionViewDelegate {
 
+    
+    @IBOutlet weak var ui_MaterialCollectionView: UICollectionView!
+    
+    private var collectionController : UICollectionViewDataSource? = nil
+    
+    private var flowManager : UICollectionViewFlowLayout? = nil
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
-    }
+        collectionController = ui_MaterialCollectionView.dataSource!
+        
+        flowManager = (ui_MaterialCollectionView.collectionViewLayout as! UICollectionViewFlowLayout)
     
+        ui_MaterialCollectionView.delegate = self
+        
+    }
 
     /*
     // MARK: - Navigation

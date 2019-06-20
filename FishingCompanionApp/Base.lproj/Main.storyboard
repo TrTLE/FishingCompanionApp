@@ -25,7 +25,7 @@
                                         <rect key="frame" x="0.0" y="0.0" width="414" height="193.5"/>
                                         <state key="normal" backgroundImage="pond"/>
                                         <connections>
-                                            <segue destination="E65-t9-wzV" kind="show" id="ukW-f7-ed0"/>
+                                            <action selector="onPondTouched:" destination="9Vz-lG-4se" eventType="touchUpInside" id="Ppx-i2-IvA"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GqU-KX-XcZ">
@@ -56,6 +56,16 @@
                         <viewLayoutGuide key="safeArea" id="Uue-bm-3A4"/>
                     </view>
                     <navigationItem key="navigationItem" id="oWa-pV-hsb"/>
+                    <connections>
+                        <segue destination="Dct-ib-et3" kind="show" id="plR-Lr-zZv"/>
+                        <segue destination="re1-15-zJR" kind="show" id="ZmK-G5-lFi"/>
+                        <segue destination="Quq-Yg-z5g" kind="show" id="kOF-v0-9vj"/>
+                        <segue destination="doJ-ou-2EU" kind="show" id="8J1-08-6rs"/>
+                        <segue destination="Zyf-ve-Alr" kind="show" id="kNT-bl-ASZ"/>
+                        <segue destination="qhN-D8-TUe" kind="show" id="eGu-vd-akU"/>
+                        <segue destination="1aZ-wb-p0J" kind="show" id="t7y-fh-K2t"/>
+                        <segue destination="mNK-MP-HGf" kind="show" id="ohW-c4-8b3"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Vq1-35-hTZ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -64,11 +74,23 @@
         <!--Expert River View Controller-->
         <scene sceneID="ugD-0K-RtD">
             <objects>
-                <viewController id="doJ-ou-2EU" customClass="ExpertRiverViewController" customModule="FishingCompanionApp" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="ExpertRiverViewController" id="doJ-ou-2EU" customClass="ExpertRiverViewController" customModule="FishingCompanionApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="oAo-jY-mmP">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="EXPERT RIVER" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Qug-by-3L8">
+                                <rect key="frame" x="150.5" y="437.5" width="113" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="Qug-by-3L8" firstAttribute="centerX" secondItem="oAo-jY-mmP" secondAttribute="centerX" id="4e6-S6-m2K"/>
+                            <constraint firstItem="Qug-by-3L8" firstAttribute="centerY" secondItem="oAo-jY-mmP" secondAttribute="centerY" id="wSZ-F1-KsX"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="O1r-B0-OV0"/>
                     </view>
                 </viewController>
@@ -79,11 +101,23 @@
         <!--Novice River View Controller-->
         <scene sceneID="HDq-5A-VjP">
             <objects>
-                <viewController id="Quq-Yg-z5g" customClass="NoviceRiverViewController" customModule="FishingCompanionApp" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="NoviceRiverViewController" id="Quq-Yg-z5g" customClass="NoviceRiverViewController" customModule="FishingCompanionApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="cZs-yb-Nhu">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="NOVICE RIVER" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="f8Q-eJ-imN">
+                                <rect key="frame" x="151" y="437.5" width="112.5" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="f8Q-eJ-imN" firstAttribute="centerX" secondItem="cZs-yb-Nhu" secondAttribute="centerX" id="OEK-8k-bF6"/>
+                            <constraint firstItem="f8Q-eJ-imN" firstAttribute="centerY" secondItem="cZs-yb-Nhu" secondAttribute="centerY" id="vG3-f9-Qyk"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="ywo-bO-a0R"/>
                     </view>
                 </viewController>
@@ -94,11 +128,23 @@
         <!--Novice Surf Casting View Controller-->
         <scene sceneID="UXh-jx-LGY">
             <objects>
-                <viewController id="Zyf-ve-Alr" customClass="NoviceSurfCastingViewController" customModule="FishingCompanionApp" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="NoviceSurfCastingViewController" id="Zyf-ve-Alr" customClass="NoviceSurfCastingViewController" customModule="FishingCompanionApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="ZgX-BD-6oj">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="NOVICE SURFCASTING" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xN2-GU-SQ7">
+                                <rect key="frame" x="117" y="437.5" width="180.5" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="xN2-GU-SQ7" firstAttribute="centerX" secondItem="ZgX-BD-6oj" secondAttribute="centerX" id="P2a-P8-rKI"/>
+                            <constraint firstItem="xN2-GU-SQ7" firstAttribute="centerY" secondItem="ZgX-BD-6oj" secondAttribute="centerY" id="qef-tn-qdo"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="rqR-bs-QM4"/>
                     </view>
                 </viewController>
@@ -109,11 +155,23 @@
         <!--Expert Surf Casting View Controller-->
         <scene sceneID="fbP-Jg-bwk">
             <objects>
-                <viewController id="qhN-D8-TUe" customClass="ExpertSurfCastingViewController" customModule="FishingCompanionApp" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="ExpertSurfCastingViewController" id="qhN-D8-TUe" customClass="ExpertSurfCastingViewController" customModule="FishingCompanionApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="rcf-hr-hJe">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="EXPERT SURFCASTING" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vjS-c9-6en">
+                                <rect key="frame" x="116.5" y="437.5" width="181.5" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="vjS-c9-6en" firstAttribute="centerX" secondItem="rcf-hr-hJe" secondAttribute="centerX" id="pfB-Lb-y3n"/>
+                            <constraint firstItem="vjS-c9-6en" firstAttribute="centerY" secondItem="rcf-hr-hJe" secondAttribute="centerY" id="y84-K6-3fX"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="yS2-pd-8Jt"/>
                     </view>
                 </viewController>
@@ -124,11 +182,23 @@
         <!--Novice Sea Fishing View Controller-->
         <scene sceneID="OVq-4H-VZH">
             <objects>
-                <viewController id="1aZ-wb-p0J" customClass="NoviceSeaFishingViewController" customModule="FishingCompanionApp" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="NoviceSeaFishingViewController" id="1aZ-wb-p0J" customClass="NoviceSeaFishingViewController" customModule="FishingCompanionApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="PFU-2Y-aSV">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="NOVICE SEA FISHING" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fKk-aY-pmd">
+                                <rect key="frame" x="124" y="437.5" width="166.5" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="fKk-aY-pmd" firstAttribute="centerY" secondItem="PFU-2Y-aSV" secondAttribute="centerY" id="2NZ-l5-hSm"/>
+                            <constraint firstItem="fKk-aY-pmd" firstAttribute="centerX" secondItem="PFU-2Y-aSV" secondAttribute="centerX" id="Qmf-dr-Rld"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="FIv-va-zsy"/>
                     </view>
                 </viewController>
@@ -139,11 +209,23 @@
         <!--Expert Sea Fishing View Controller-->
         <scene sceneID="RMS-MR-v9T">
             <objects>
-                <viewController id="mNK-MP-HGf" customClass="ExpertSeaFishingViewController" customModule="FishingCompanionApp" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="ExpertSeaFishingViewController" id="mNK-MP-HGf" customClass="ExpertSeaFishingViewController" customModule="FishingCompanionApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Hzv-KN-KbN">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="EXPERT SEA FISHING" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="o5a-dt-wqc">
+                                <rect key="frame" x="123.5" y="437.5" width="167.5" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="o5a-dt-wqc" firstAttribute="centerY" secondItem="Hzv-KN-KbN" secondAttribute="centerY" id="0iQ-bV-45l"/>
+                            <constraint firstItem="o5a-dt-wqc" firstAttribute="centerX" secondItem="Hzv-KN-KbN" secondAttribute="centerX" id="KKh-7c-Tdf"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="NVx-XD-TC5"/>
                     </view>
                 </viewController>
@@ -160,10 +242,10 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="oH9-5y-O8o">
-                                <rect key="frame" x="0.0" y="88" width="414" height="774"/>
+                                <rect key="frame" x="0.0" y="44" width="414" height="818"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ked-w9-K4v">
-                                        <rect key="frame" x="0.0" y="0.0" width="414" height="193.5"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="204.5"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                         <state key="normal" title="Necessary material"/>
                                         <connections>
@@ -171,17 +253,17 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="koi-qf-fDj">
-                                        <rect key="frame" x="0.0" y="193.5" width="414" height="193.5"/>
+                                        <rect key="frame" x="0.0" y="204.5" width="414" height="204.5"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                         <state key="normal" title="Learn to knot"/>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hhJ-iw-9rC">
-                                        <rect key="frame" x="0.0" y="387" width="414" height="193.5"/>
+                                        <rect key="frame" x="0.0" y="409" width="414" height="204.5"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                         <state key="normal" title="Fishing montage"/>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iPw-3P-DA9">
-                                        <rect key="frame" x="0.0" y="580.5" width="414" height="193.5"/>
+                                        <rect key="frame" x="0.0" y="613.5" width="414" height="204.5"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                         <state key="normal" title="How to fish"/>
                                     </button>
@@ -266,19 +348,19 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zg8-fn-22I">
-                                <rect key="frame" x="0.0" y="298" width="414" height="50.5"/>
+                                <rect key="frame" x="0.0" y="254" width="414" height="50.5"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="42"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="s79-Mw-cdt">
-                                <rect key="frame" x="0.0" y="108" width="414" height="42"/>
+                                <rect key="frame" x="0.0" y="64" width="414" height="42"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="35"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pV4-25-ezC">
-                                <rect key="frame" x="107" y="502" width="200" height="40"/>
+                                <rect key="frame" x="107" y="458" width="200" height="40"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="200" id="62n-rb-mKP"/>
                                     <constraint firstAttribute="height" constant="40" id="hSg-RN-LGS"/>
@@ -319,26 +401,112 @@
         <!--Novice Pond View Controller-->
         <scene sceneID="ct0-pN-gb5">
             <objects>
-                <viewController id="Dct-ib-et3" customClass="NovicePondViewController" customModule="FishingCompanionApp" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="NovicePondViewController" id="Dct-ib-et3" customClass="NovicePondViewController" customModule="FishingCompanionApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="BpU-u7-Dlx">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="NOVICE POND" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zaD-hK-NAU">
+                                <rect key="frame" x="150.5" y="438" width="113.5" height="20.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="GQH-XZ-prr">
+                                <rect key="frame" x="87" y="197" width="240" height="128"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="f5y-qS-sUH">
+                                    <size key="itemSize" width="50" height="50"/>
+                                    <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                    <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                    <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                </collectionViewFlowLayout>
+                                <cells>
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="r1r-D4-a5X">
+                                        <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO">
+                                            <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="pond_novice_bait" translatesAutoresizingMaskIntoConstraints="NO" id="I2q-m5-mAX">
+                                                    <rect key="frame" x="-72" y="-57" width="240" height="128"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                </imageView>
+                                            </subviews>
+                                        </view>
+                                    </collectionViewCell>
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gic-Zs-3uE">
+                                        <rect key="frame" x="63.5" y="0.0" width="50" height="50"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO">
+                                            <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="pond_novice_reel" translatesAutoresizingMaskIntoConstraints="NO" id="mqf-Dw-Yxf">
+                                                    <rect key="frame" x="-190" y="-78" width="240" height="128"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                </imageView>
+                                            </subviews>
+                                        </view>
+                                    </collectionViewCell>
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="m6t-xe-eYp">
+                                        <rect key="frame" x="126.5" y="0.0" width="50" height="50"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO">
+                                            <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="pond_novice_rod" translatesAutoresizingMaskIntoConstraints="NO" id="kY6-HK-kgn">
+                                                    <rect key="frame" x="-190" y="-54" width="240" height="128"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                </imageView>
+                                            </subviews>
+                                        </view>
+                                    </collectionViewCell>
+                                </cells>
+                            </collectionView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="zaD-hK-NAU" firstAttribute="centerX" secondItem="BpU-u7-Dlx" secondAttribute="centerX" id="0AJ-Ur-Aug"/>
+                            <constraint firstItem="zaD-hK-NAU" firstAttribute="centerY" secondItem="BpU-u7-Dlx" secondAttribute="centerY" id="3Iy-A8-nzi"/>
+                            <constraint firstItem="GQH-XZ-prr" firstAttribute="top" secondItem="bBY-nS-z0d" secondAttribute="top" constant="109" id="AiA-11-W7K"/>
+                            <constraint firstItem="bBY-nS-z0d" firstAttribute="bottom" secondItem="GQH-XZ-prr" secondAttribute="bottom" constant="537" id="Bze-Ps-f8s"/>
+                            <constraint firstItem="GQH-XZ-prr" firstAttribute="centerX" secondItem="BpU-u7-Dlx" secondAttribute="centerX" id="N2b-4M-6Ys"/>
+                            <constraint firstItem="bBY-nS-z0d" firstAttribute="trailing" secondItem="GQH-XZ-prr" secondAttribute="trailing" constant="87" id="ZTK-wl-DTB"/>
+                            <constraint firstItem="GQH-XZ-prr" firstAttribute="leading" secondItem="bBY-nS-z0d" secondAttribute="leading" constant="87" id="vzO-Yg-LGe"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="bBY-nS-z0d"/>
                     </view>
+                    <connections>
+                        <outlet property="ui_MaterialCollectionView" destination="GQH-XZ-prr" id="1gf-D3-ell"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Dmc-xP-dkg" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1286" y="-2236"/>
+            <point key="canvasLocation" x="1285.5072463768117" y="-2236.6071428571427"/>
         </scene>
         <!--Expert Pond View Controller-->
         <scene sceneID="ggx-6H-BEa">
             <objects>
-                <viewController id="re1-15-zJR" customClass="ExpertPondViewController" customModule="FishingCompanionApp" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="ExpertPondViewController" id="re1-15-zJR" customClass="ExpertPondViewController" customModule="FishingCompanionApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="jUs-gq-QLw">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="EXPERT POND" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ncL-ft-L5r">
+                                <rect key="frame" x="150" y="437.5" width="114" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="ncL-ft-L5r" firstAttribute="centerX" secondItem="jUs-gq-QLw" secondAttribute="centerX" id="Tl1-0E-KI6"/>
+                            <constraint firstItem="ncL-ft-L5r" firstAttribute="centerY" secondItem="jUs-gq-QLw" secondAttribute="centerY" id="x1y-he-ux2"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="yat-ST-vf7"/>
                     </view>
                 </viewController>
@@ -477,20 +645,58 @@
             </objects>
             <point key="canvasLocation" x="214" y="114"/>
         </scene>
-        <!--View Controller-->
+        <!--Map View Controller-->
         <scene sceneID="xWt-Rv-D0l">
             <objects>
-                <viewController id="Goq-64-PiW" sceneMemberID="viewController">
+                <viewController id="Goq-64-PiW" customClass="MapViewController" customModule="FishingCompanionApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="uyl-Qg-oGY">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="2k9-Jy-V9u">
+                                <rect key="frame" x="20" y="88" width="374" height="774"/>
+                            </mapView>
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="m7w-Rv-2pR">
+                                <rect key="frame" x="0.0" y="786" width="414" height="30"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fDS-mB-WFW">
+                                        <rect key="frame" x="0.0" y="0.0" width="207" height="30"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <state key="normal" title="CATCH">
+                                            <color key="titleShadowColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="s2a-xi-Dbw">
+                                        <rect key="frame" x="207" y="0.0" width="207" height="30"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <state key="normal" title="POSITION">
+                                            <color key="titleShadowColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="2k9-Jy-V9u" firstAttribute="leading" secondItem="uyl-Qg-oGY" secondAttribute="leadingMargin" id="2Pa-io-rOk"/>
+                            <constraint firstItem="2k9-Jy-V9u" firstAttribute="top" secondItem="uyl-Qg-oGY" secondAttribute="topMargin" id="670-ZV-9Bi"/>
+                            <constraint firstItem="2k9-Jy-V9u" firstAttribute="centerX" secondItem="uyl-Qg-oGY" secondAttribute="centerX" id="7HS-5O-nVb"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="2k9-Jy-V9u" secondAttribute="trailing" id="KlL-Bp-Vn7"/>
+                            <constraint firstAttribute="bottom" secondItem="m7w-Rv-2pR" secondAttribute="bottom" constant="80" id="O2M-XA-4vF"/>
+                            <constraint firstItem="m7w-Rv-2pR" firstAttribute="leading" secondItem="g0C-hr-X9C" secondAttribute="leading" id="SkB-H4-IWo"/>
+                            <constraint firstItem="m7w-Rv-2pR" firstAttribute="trailing" secondItem="g0C-hr-X9C" secondAttribute="trailing" id="YH1-OX-fes"/>
+                            <constraint firstItem="m7w-Rv-2pR" firstAttribute="centerX" secondItem="uyl-Qg-oGY" secondAttribute="centerX" id="eKu-Yq-laW"/>
+                            <constraint firstAttribute="bottomMargin" secondItem="2k9-Jy-V9u" secondAttribute="bottom" id="r2X-gr-7AQ"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="g0C-hr-X9C"/>
                     </view>
+                    <connections>
+                        <outlet property="ui_Map" destination="2k9-Jy-V9u" id="8tg-bg-PVE"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4rz-Us-XrG" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-2695" y="1501"/>
+            <point key="canvasLocation" x="-2695.6521739130435" y="1500.6696428571429"/>
         </scene>
         <!--Perfection View Controller-->
         <scene sceneID="8aa-g1-3Ut">
@@ -499,7 +705,28 @@
                     <view key="view" contentMode="scaleToFill" id="RxR-4F-7xr">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Kz5-jQ-upN">
+                                <rect key="frame" x="166.5" y="418.5" width="81" height="59"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="39"/>
+                                <state key="normal" title="MAP"/>
+                                <connections>
+                                    <segue destination="Goq-64-PiW" kind="show" id="Wha-k7-P90"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fko-HG-21v">
+                                <rect key="frame" x="107" y="561" width="200" height="52"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="33"/>
+                                <state key="normal" title="SCROLLVIEW"/>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="fko-HG-21v" firstAttribute="top" secondItem="Kz5-jQ-upN" secondAttribute="bottom" constant="83.5" id="6Z9-zp-9IS"/>
+                            <constraint firstItem="fko-HG-21v" firstAttribute="centerX" secondItem="RxR-4F-7xr" secondAttribute="centerX" id="AN1-Kq-T0f"/>
+                            <constraint firstItem="Kz5-jQ-upN" firstAttribute="centerY" secondItem="RxR-4F-7xr" secondAttribute="centerY" id="h7a-5c-xeQ"/>
+                            <constraint firstItem="Kz5-jQ-upN" firstAttribute="centerX" secondItem="RxR-4F-7xr" secondAttribute="centerX" id="mYe-jt-PuQ"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="79v-19-b4t"/>
                     </view>
                 </viewController>
@@ -532,6 +759,9 @@
     </scenes>
     <resources>
         <image name="pond" width="700" height="366"/>
+        <image name="pond_novice_bait" width="380" height="380"/>
+        <image name="pond_novice_reel" width="679" height="700"/>
+        <image name="pond_novice_rod" width="700" height="53"/>
         <image name="river" width="691" height="380"/>
         <image name="seafishing" width="570" height="380"/>
         <image name="surfcasting" width="570" height="380"/>
